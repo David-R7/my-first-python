@@ -1,0 +1,28 @@
+\documentclass{article}          % 文档类型
+\usepackage[UTF8]{ctex}         % 中文支持（可选）
+\usepackage{amsmath, amssymb}   % 常用数学宏包
+
+\begin{document}
+	
+	这是第一段正文。可以写中文，也可以写英文，比如：
+	This is the first paragraph of my paper.
+	
+	\section{引言}
+	
+	引言部分介绍研究背景、动机和目标。
+	
+	\section{数学模型}
+	
+	我们考虑如下的分数阶随机微分方程：
+	
+	\[
+	{}_0^C D_t^\alpha X(t) = \mu X(t) + \sigma X(t)\dot{W}(t)
+	\]
+	
+	\subsection{参数解释}
+	
+	其中：
+	- \( {}_0^C D_t^\alpha \)：Caputo 分数阶导数
+	- \( \dot{W}(t) \)：白噪声项（Wiener 过程的导数）
+	
+\end{document}
